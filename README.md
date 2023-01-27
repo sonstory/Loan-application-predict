@@ -7,9 +7,18 @@
 
 ## 1. Data
 
-- 본래 데이터에는 많은 피쳐와 데이터들이 포함되어 있지만, 타겟 피쳐(is_applied)와의 상관 관계가 높은 피쳐를 확인하지 못했습니다.
-- 따라서 분석 대상 피쳐를 선정하기 위해 핀다 어플을 직접 실행해보았고, 그 결과 신뢰할 수 있는 피쳐를 선정할 수 있었습니다.
+- 앱 시뮬레이션을 통한 분석 대상 피쳐 선정
+  - 앱을 직접 실행해보면서 인증 절차 등이 있어 신뢰할 수 있는 피처들을 분석 대상으로 선정하였습니다.
   - 나이(age), 신용 점수(credit_score), 대출 희망금액(desired_amount), 기대출 수(existing_loan_cnt), 기대출 금액(existing_loan_amt), 대출 한도(loan_limit), 대출 금리(loan_rate), 대출 신청 여부(is_applied)
-  - 나머지 피쳐의 경우 어플이라는 특성상 회원 가입 과정에서 장난을 칠 가능성이 높고, 별다른 인증 절차가 없어 신뢰할 수 없는 피쳐라고 판단했습니다.
+  
+## 2. Data Preprocessing
+- Missing Value
+- Outlier
+- Feature Engineering
+- Scaling
+- Oversampling
 
--- 작성중 --
+구체적인 내용은 [블로그](https://sonstory.tistory.com/36)에서 확인이 가능합니다.
+
+## 3. Modeling
+--작성중--

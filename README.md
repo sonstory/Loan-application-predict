@@ -26,10 +26,11 @@
   - 분류 모델 : `Logistic Regression`, `XGBoost`, `LightGBM`, `CatBoost`, `RandomForest`
 - 하이퍼 파라미터 튜닝 : `GridSearchCV`
 - 복합 모델 : `Hard Voting`, `Soft Voting`, `Stacking`
+![image](https://user-images.githubusercontent.com/79157951/230641643-a1fb2a69-c079-4521-88dc-00dbdbff18fe.png)
 
 ## 4. 분석 결과
 - 최종 예측 모델 : `Stacking(Meta Model : LightGBM)`
-- 프로젝트 결과
+![image](https://user-images.githubusercontent.com/79157951/230641540-b7e9138a-53aa-4638-b076-97a3fa20a7e1.png)
 
 ## 5. 코멘트
 - 불균형이 매우 심한(17:1)의 데이터셋을 처음 다뤄보는 경험이었다.
